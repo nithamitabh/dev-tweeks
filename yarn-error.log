@@ -1,0 +1,77 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\amita\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-markdown
+
+PATH: 
+  C:\Users\amita\AppData\Local\cloud-code\installer\google-cloud-sdk\bin;C:\Program Files\Microsoft\jdk-17.0.9.8-hotspot\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Users\amita\AppData\Local\Microsoft\WindowsApps;C:\Users\amita\AppData\Local\atom\bin;C:\Users\amita\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\amita\AppData\Roaming\npm;C:\Users\amita\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm 2022.2.1\bin;C:\Users\amita\Downloads\flutter_windows_3.3.2-stable\flutter\bin;C:\Users\amita\AppData\Local\Microsoft\WindowsApps;C:\adb;C:\Users\amita;C:\Users\amita\Desktop\2nd yr material\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\bin;C:\OrCAD\OrCAD_16.6_Lite\tools\PSpice;C:\OrCAD\OrCAD_16.6_Lite\tools\Capture;C:\OrCAD\OrCAD_16.6_Lite\tools\bin;C:\OrCAD\OrCAD_16.6_Lite\OpenAccess\bin\win32\opt;C:\OrCAD\OrCAD_16.6_Lite\tools\fet\bin;C:\OrCAD\OrCAD_16.6_Lite\tools\pcb\bin;C:\Users\amita\AppData\Roaming\Python\Python310\Scripts;E:\matlab\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\2nd yr material\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\bin;C:\Program Files\Sublime Text\;D:\flutter_windows_3.16.2-stable\flutter\bin;C:\Users\amita\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\MongoDB\Server\7.0\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\GitHub CLI\;C:\Users\user\AppData\Local\Programs\oh-my-posh\bin;C:\Hugo\bin;C:\Users\amita\dev\flutter\bin;;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Users\amita\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\amita\.console-ninja\.bin;C:\Users\amita\AppData\Local\pnpm;C:\Users\amita\AppData\Local\Microsoft\WindowsApps;C:\Users\amita\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\amita\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm 2022.2.1\bin;C:\Users\amita\Downloads\flutter_windows_3.3.2-stable\flutter\bin;C:\Users\amita\AppData\Local\Microsoft\WindowsApps;C:\Users\amita\AppData\Roaming\npm;C:\Users\amita\IntelliJ IDEA Community Edition 2023.1\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.1\bin;C:\Users\amita\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\amita\AppData\Local\Programs\mongosh\;C:\Users\user\AppData\Local\Programs\oh-my-posh\bin;C:\Users\amita\AppData\Local\Programs\oh-my-posh\bin;C:\Program Files\Neovim\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.19.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\amita\Documents\development\dev-tweeks\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "dev-tweeks",
+    "private": true,
+    "sideEffects": false,
+    "type": "module",
+    "scripts": {
+      "build": "remix build",
+      "dev": "remix dev --manual",
+      "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
+      "start": "remix-serve ./build/index.js",
+      "typecheck": "tsc"
+    },
+    "dependencies": {
+      "@radix-ui/react-avatar": "^1.0.4",
+      "@radix-ui/react-dialog": "^1.0.5",
+      "@radix-ui/react-separator": "^1.0.3",
+      "@radix-ui/react-slot": "^1.0.2",
+      "@radix-ui/react-tabs": "^1.0.4",
+      "@radix-ui/react-toast": "^1.1.5",
+      "@remix-run/css-bundle": "^2.8.1",
+      "@remix-run/node": "^2.8.1",
+      "@remix-run/react": "^2.8.1",
+      "@remix-run/serve": "^2.8.1",
+      "class-variance-authority": "^0.7.0",
+      "clsx": "^2.1.0",
+      "isbot": "^4.1.0",
+      "lucide-react": "^0.356.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "tailwind-merge": "^2.2.1",
+      "tailwindcss-animate": "^1.0.7"
+    },
+    "devDependencies": {
+      "@remix-run/dev": "^2.8.1",
+      "@types/react": "^18.2.20",
+      "@types/react-dom": "^18.2.7",
+      "@typescript-eslint/eslint-plugin": "^6.7.4",
+      "@typescript-eslint/parser": "^6.7.4",
+      "autoprefixer": "^10.4.18",
+      "eslint": "^8.38.0",
+      "eslint-import-resolver-typescript": "^3.6.1",
+      "eslint-plugin-import": "^2.28.1",
+      "eslint-plugin-jsx-a11y": "^6.7.1",
+      "eslint-plugin-react": "^7.33.2",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "tailwindcss": "^3.4.1",
+      "typescript": "^5.1.6"
+    },
+    "engines": {
+      "node": ">=18.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
